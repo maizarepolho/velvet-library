@@ -1,4 +1,4 @@
-    document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
 
     // Seleciona o Modal e seus elementos internos
     const customModal = document.getElementById('customModal');
@@ -58,7 +58,7 @@
         }
     });
 
-    // Botões auxiliares
+    // Botões auxiliares da header
     const cartBtn = document.querySelector('.cart-btn');
     const starBtn = document.querySelector('.star-btn');
     const btnCriarConta = document.querySelector('.btn-yellow');
